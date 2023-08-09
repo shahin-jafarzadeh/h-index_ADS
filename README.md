@@ -3,7 +3,7 @@
 The package includes a Python code to automatically fetch h-index from SAO/NASA Astrophysics Data System (ADS) for a given ORCID (Open Researcher and Contributor ID), and an exmaple PHP code (see below) on how to display the h-index on a webpage.
 
 ## Prepare the Python code
-* Creat an account at the <a href="https://ui.adsabs.harvard.edu" target="_blank">SAO/NASA Astrophysics Data System (ADS), if you do not already have one.
+* Creat an account at the <a href="https://ui.adsabs.harvard.edu" target="_blank">SAO/NASA Astrophysics Data System (ADS)</a>, if you do not already have one.
 * Login into your ADS account.
 * **Generate a new key** under [Settings --> API token](https://ui.adsabs.harvard.edu/user/settings/token).
 * Replace the **Your_ADS_API_Token** in line 21 of the Python code (compute_h_index.py).
