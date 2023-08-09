@@ -16,9 +16,9 @@ The package includes a Python code to automatically fetch h-index from SAO/NASA 
 ```
    <?php
      $orcid = YOUR_ORCID_ID
-		 $h_index = exec("python3 compute_h_index.py $orcid"); 
-		 $pid = intval(exec('python3 compute_h_index.py'));
-		 exec("kill $pid");
+     $h_index = exec("python3 compute_h_index.py $orcid"); 
+     $pid = intval(exec('python3 compute_h_index.py'));
+     exec("kill $pid");
      echo $h_index;
    ?>
 ```
