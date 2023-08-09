@@ -14,9 +14,9 @@ The package includes a Python code to automatically fetch [*h*-index](https://en
 
 ### Display *h*-index in your webpage
 
-* If your webpage is in HTML, change the extension from `.html` to `.php` (i.e., change the file name from `name.html` to `name.php`)
+* If your webpage is in HTML, change the extension from `.html` to `.php` (i.e., change the file name from `my_webpage.html` to `my_webpage.php`)
 * Create an [ORCID iD](https://orcid.org), if you do not have one.
-* Add the following PHP code in where you want to display the *h*-index (in between your other HTML or PHP codes), and replace the **YOUR_ORCID_ID** with yours (only the number, e.g., `0000-0002-7711-5397`).
+* Add the following PHP code in `my_webpage.php`, where you want to display the *h*-index (in between your other HTML or PHP codes), and replace the **YOUR_ORCID_ID** with yours (only the number, e.g., `0000-0002-7711-5397`).
 ```
    <?php
      $orcid = YOUR_ORCID_ID
