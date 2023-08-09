@@ -2,8 +2,7 @@
 
 The package includes a Python code to automatically fetch h-index from [SAO/NASA Astrophysics Data System (ADS)](href="https://ui.adsabs.harvard.edu) for a given [ORCID](https://orcid.org) (Open Researcher and Contributor ID), and an exmaple PHP code (see below) on how to display the h-index on a webpage.
 
-### IMPORTANT: 
-Please note that the latest h-index is automatically fetched from the ADS for all your publications linked to your ORCID. As such, it works correctly only if all your publications in ADS have been linked (claimed) to your ORCID. See [here](https://ui.adsabs.harvard.edu/orcid-instructions/) on how to link your publications and ORCID in ADS.
+**IMPORTANT:** Please note that the latest h-index is automatically fetched from the ADS for all your publications linked to your ORCID. As such, it works correctly only if all your publications in ADS have been linked (claimed) to your ORCID. See [here](https://ui.adsabs.harvard.edu/orcid-instructions/) on how to link your publications and ORCID in ADS.
 
 ## Prepare the Python code
 * Creat an account at the [SAO/NASA Astrophysics Data System (ADS)](href="https://ui.adsabs.harvard.edu), if you do not already have one.
