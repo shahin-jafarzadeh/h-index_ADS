@@ -19,7 +19,7 @@ The package includes a simple Python code to automatically fetch [*h*-index](htt
 * Add the following PHP code in `my_webpage.php`, where you want to display the *h*-index (in between your other HTML or PHP codes), and replace the **YOUR_ORCID_ID** with yours (only the number, e.g., `0000-0002-7711-5397`).
 ```
    <?php
-     $orcid = YOUR_ORCID_ID
+     $orcid = 'YOUR_ORCID_ID';
      $h_index = exec("python3 compute_h_index.py $orcid"); 
      $pid = intval(exec('python3 compute_h_index.py'));
      exec("kill $pid");
