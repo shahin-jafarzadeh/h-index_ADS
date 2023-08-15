@@ -4,7 +4,7 @@ The package includes a simple Python code to automatically fetch [*h*-index](htt
 
 **IMPORTANT:** Please note that the latest *h*-index is automatically fetched from the ADS for all your publications linked to your ORCID. As such, it works correctly only if all your publications in the ADS have been linked (claimed) to your ORCID. See [here](https://ui.adsabs.harvard.edu/orcid-instructions/) on how to link your publications and ORCID in the ADS.
 
-### Prepare the Python code
+### Modify and upload the Python code
 
 * Create an account at the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu), if you do not already have one.
 * Login into your ADS account.
