@@ -27,4 +27,4 @@ The package includes a simple Python code to automatically fetch [*h*-index](htt
    ?>
 ```
 
-See an example shown at [https://WaLSA.team/Shahin.Jafarzadeh](https://WaLSA.team/Shahin.Jafarzadeh)
+See an example at [https://WaLSA.team/Shahin.Jafarzadeh](https://WaLSA.team/Shahin.Jafarzadeh)
